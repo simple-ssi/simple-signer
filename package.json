@@ -32,19 +32,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "[FILL IN YOURS]"
+    "url": "git+https://github.com/simple-ssi/simple-signer.git"
   },
   "keywords": [
     "ssi",
     "signer",
     "simple"
   ],
-  "author": "[FILL IN YOURS]",
+  "author": "Jonathan Rayback",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://FILL.IN.YOURS"
+    "url": "https:///github.com/simple-ssi/simple-signer/issues"
   },
-  "homepage": "https://FILL.IN.YOURS",
+  "homepage": "https:///github.com/simple-ssi/simple-signer#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "del-cli": "^5.0.0",
