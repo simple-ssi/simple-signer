@@ -3,6 +3,7 @@
   "version": "0.0.0-development-1",
   "description": "A simple signer for SSI",
   "type": "module",
+  "access": "public",
   "exports": {
     ".": {
       "import": {
@@ -34,10 +35,12 @@
     "url": "[FILL IN YOURS]"
   },
   "keywords": [
-    "template"
+    "ssi",
+    "signer",
+    "simple"
   ],
   "author": "[FILL IN YOURS]",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://FILL.IN.YOURS"
   },
