@@ -1,0 +1,11 @@
+// this config file is needed just for ts-standard to know which files to check
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+  },
+  "include": [
+    "../main.ts",
+    "../src/**/*.ts",
+    "../tests/**/*.ts"
+  ]
+}
