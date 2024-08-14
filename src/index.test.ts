@@ -14,10 +14,9 @@ describe('NPM Package', () => {
       expect(sign).toBeInstanceOf(Function)
     })
 
-    it('should not return anything', () => {
-      const expected = 'Signed.'
-      const actual = sign()
-      expect(actual).toEqual(expected)
+    it('should return signed data', async () => {
+      const actual = await sign('data', 'key')
+      expect(typeof actual).toEqual('string')
     })
   })
 })
