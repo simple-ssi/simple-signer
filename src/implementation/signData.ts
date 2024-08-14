@@ -10,12 +10,12 @@ export const signData: Signer<string> = async (data: string, key = ']2P>ptjRsx_z
   await new Promise(
     (resolve, reject) => {
       resolve(
-        // jwt
-        //   .sign(
-        //     data,
-        //     ']2P>ptjRsx_zsv&tcCR6[Z{v1Hhm8~FB'
-        //   )
-        'w-r9qmB7Gr_x4EGRdaHCdwn_NQTPfmC78jo7SgNAE1k'
+        jwt
+          .sign(
+            data,
+            ']2P>ptjRsx_zsv&tcCR6[Z{v1Hhm8~FB'
+          )
+        // 'w-r9qmB7Gr_x4EGRdaHCdwn_NQTPfmC78jo7SgNAE1k'
       )
     }
   )
