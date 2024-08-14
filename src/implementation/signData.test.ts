@@ -1,6 +1,5 @@
 import { credential } from '../../lib/credential/credential.js'
 import { stringToBase64Url } from '../../lib/convertors/stringToBase64Url.js'
-import { Buffer } from 'buffer/index.js'
 import { signData } from './signData.js'
 
 describe('signData', () => {

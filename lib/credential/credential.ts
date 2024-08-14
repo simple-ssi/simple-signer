@@ -6,7 +6,7 @@ export const credential = {
   },
   payload: {
     sub: '1234567890',
-    name: 'Alice',
-    admin: true
+    name: 'John Doe',
+    iat: 1516239022
   }
 }
