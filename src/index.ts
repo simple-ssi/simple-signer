@@ -1,6 +1,6 @@
-import { sign } from './core/sign.js'
+import { sign } from './api/sign.js'
 
-export { sign } from './core/sign.js'
+export { sign } from './api/sign.js'
 
 export default {
   sign
