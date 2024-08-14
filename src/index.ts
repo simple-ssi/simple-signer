@@ -1,16 +1,7 @@
-import { hello, goodbye } from './message/message.js'
+import { sign } from './core/sign.js'
 
-export function helloWorld (): string {
-  const message = `${hello} from my example modern npm package!`
-  return message
-}
-
-export function goodBye (): string {
-  const message = `${goodbye} from my example modern npm package!`
-  return message
-}
+export { sign } from './core/sign.js'
 
 export default {
-  helloWorld,
-  goodBye
+  sign
 }
