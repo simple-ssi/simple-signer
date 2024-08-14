@@ -1,6 +1,6 @@
 {
   "name": "@simple-ssi/simple-signer",
-  "version": "0.0.0-development-1",
+  "version": "0.0.0-development-2",
   "description": "A simple signer for SSI",
   "type": "module",
   "access": "public",
