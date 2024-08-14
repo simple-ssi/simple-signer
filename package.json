@@ -66,6 +66,8 @@
     "project": "./configs/tsconfig.eslint.json"
   },
   "dependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "buffer": "^6.0.3",
     "jsonwebtoken": "^9.0.2"
   }
 }
