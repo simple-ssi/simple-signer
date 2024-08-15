@@ -1,7 +1,7 @@
-import { sign } from './api/sign.js'
+import { signJwt } from './api/signJwt.js'
 
-export { sign } from './api/sign.js'
+export { signJwt } from './api/signJwt.js'
 
 export default {
-  sign
+  signJwt
 }

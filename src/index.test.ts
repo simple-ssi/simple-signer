@@ -1,21 +1,21 @@
-import npmPackage, { sign } from './index.js'
+import npmPackage, { signJwt } from './index.js'
 
 describe('NPM Package', () => {
   it('should be an object', () => {
     expect(npmPackage).toBeInstanceOf(Object)
   })
 
-  it('should have a sign property', () => {
-    expect(npmPackage).toHaveProperty('sign')
+  it('should have a signJwt property', () => {
+    expect(npmPackage).toHaveProperty('signJwt')
   })
 
-  describe('Sign Function', () => {
+  describe('signJwt function', () => {
     it('should be a function', () => {
-      expect(sign).toBeInstanceOf(Function)
+      expect(signJwt).toBeInstanceOf(Function)
     })
 
-    it('should return signed data', async () => {
-      const actual = await sign('data', 'key')
+    it('should return string', async () => {
+      const actual = await signJwt('header', 'payload', 'secret')
       expect(typeof actual).toEqual('string')
     })
   })
